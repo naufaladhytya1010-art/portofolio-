@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.saldo-box {
+    text-align: center;
+    background: #4CAF50;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#saldo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, select, button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+#riwayat {
+    list-style: none;
+    padding: 0;
+}
+
+#riwayat li {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 8px;
+    color: white;
+}
+
+.masuk {
+    background: #28a745;
+}
+
+.keluar {
+    background: #dc3545;
+}
