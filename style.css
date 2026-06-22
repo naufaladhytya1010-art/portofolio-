@@ -54,6 +54,21 @@ button:hover {
     opacity: 0.9;
 }
 
+#resetbtn {
+    background: #ff1100;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+#resetbtn:hover {
+    opacity: 0.9;
+}
+
 #riwayat {
     list-style: none;
     padding: 0;

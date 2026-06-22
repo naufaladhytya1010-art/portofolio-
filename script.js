@@ -1,6 +1,7 @@
 const form = document.getElementById("form");
 const saldoEl = document.getElementById("saldo");
 const riwayatEl = document.getElementById("riwayat");
+const resetBtn = document.getElementById("resetbtn");
 
 let transaksi = JSON.parse(localStorage.getItem("transaksi")) || [];
 
@@ -52,6 +53,13 @@ form.addEventListener("submit", e => {
 
     tampilkanData();
     form.reset();
+});
+
+resetBtn.addEventListener("click", () => {
+    if (confirm("Apakah Anda yakin ingin mereset semua data?")) {
+        transaksi = [];
+        tampilkanData();
+    }
 });
 
 tampilkanData();
